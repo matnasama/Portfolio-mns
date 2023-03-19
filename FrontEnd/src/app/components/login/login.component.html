@@ -1,0 +1,53 @@
+<section>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7 col-lg-5">
+            <div class="wrap">
+            <div class="img" style="background-image: url(../../../assets/tree2.png);"></div>
+            <div class="login-wrap p-4 p-md-5">
+                <div class="d-flex">
+                    <div class="w-100">
+                        <h3 class="mb-4">Ingresar</h3>
+                    </div>
+    
+        </div>
+    
+        <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+    
+            <div class="form-group mt-3">
+                <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control" [(ngModel)]="nombreUsuario" [ngModelOptions]="{standalone:true}" required/>
+                <label class="form-control-placeholder" for="nombreUsuario">Usuario</label>
+            </div>
+    
+            <div class="form-group">
+                <input id="password" type="password" class="form-control" [(ngModel)]="password" [ngModelOptions]="{standalone:true}" required/>
+                <label class="form-control-placeholder" for="password">Contraseña</label>
+                <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+            </div>
+    
+            <div class="form-group">
+                <button type="submit" class="form-control btn btn-primary rounded submit px-3">Iniciar Sesión</button>
+            </div>
+    
+            <div class="form-group d-md-flex">
+                <div class="w-50 text-left">
+                    <label class="checkbox-wrap checkbox-primary mb-0">Recordar
+                    <input type="checkbox" checked="">
+                    <span class="checkmark"></span>
+                </label>
+                </div>
+                <div class="w-50 text-md-right">
+                    <a href="#">Olvidé mi contraseña</a>
+                </div>
+            </div>
+    
+        </form>
+    
+        <p class="text-center">¿No tenés usuario? <a data-toggle="tab" href="#signup">Registrate</a></p>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    </section>

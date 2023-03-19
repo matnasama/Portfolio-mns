@@ -1,0 +1,98 @@
+.parent{
+    display: grid;
+    place-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+div{
+    background-color: rgba(152, 196, 240, 0.747);
+    text-align: center;
+}
+
+.row{
+    align-items: center;
+    margin-left: 4px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.col-xs {
+    margin: 50px;
+    padding: 50px;
+}
+#img {
+    height: 100px;
+}
+
+#nombre {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+.img-fluid {
+    padding: 5px;
+    border-radius: 100%;
+}
+
+@media (max-width: 575px) {
+    #foto_perfil {
+        position: absolute;
+        width: 250px;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 576px) {
+    #foto_perfil {
+        position: absolute;
+        width: 250px;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 768px) { 
+    #foto_perfil {
+        position: absolute;
+        width: 250px;
+        left: 35%;
+        top: 35%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 992px) { 
+    #foto_perfil {
+        position: absolute;
+        width: 250px;
+        left: 27%;
+        top: 35%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 1200px) { 
+    #foto_perfil {
+        position: absolute;
+        width: 270px;
+        left: 27%;
+        top: 35%;
+    }
+}
+
+@media (min-width: 1400px) { 
+    #foto_perfil {
+        position: absolute;
+        width: 270px;
+        left: 30%;
+        top: 35%;
+    }
+}

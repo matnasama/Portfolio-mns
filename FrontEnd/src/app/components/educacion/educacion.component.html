@@ -1,7 +1,5 @@
 <div class="educacion">
-    <div class="titulo">
         <h1>EDUCACIÓN</h1>
-    </div>
 
     <div class="col-lg-2">
         <button type="button" class="btn btn-dark" routerLink="/nuevaedu" *ngIf="isLogged">
@@ -12,9 +10,7 @@
         <table>
             <tbody>
                 <tr *ngFor="let Educacion of educacion">
-                    <td>
-                        <h2>{{Educacion.nombreE}}</h2>
-                    </td>
+                    <td>{{Educacion.nombreE}}</td>
                     <td>{{Educacion.descripcionE}}</td>
                     <td *ngIf="isLogged">
                         <button class="btn btn-primary" routerLink="/editedu/{{Educacion.id}}">

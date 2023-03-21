@@ -5,27 +5,14 @@
     margin-left: 10px;
     margin-right: 10px;
     padding: 20px;
+    display: grid;
 }
-.titulo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 
 h1 {
     text-align: center;
 }
 
-.area {
-    vertical-align: middle;
-    text-align: center;
-    padding: 30px;
-}
-
-.institucion {
-    vertical-align: middle;
-    text-align: center;
-    padding: 20px;
-}
-.antiguedad {
-    text-align: center;
+th, td {
+    padding: 10px;
 }

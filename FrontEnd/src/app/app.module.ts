@@ -23,6 +23,8 @@ import { EditExperienciaComponent } from './components/experiencia/editexperienc
 import { NewEducacionComponent } from './components/educacion/neweducacion.component';
 import { EditEducacionComponent } from './components/educacion/editeducacion.component';
 import { interceptorProvider } from './service/interceptor.service';
+import { NewSkillsComponent } from './components/skills/new-skills.component';
+import { EditSkillsComponent } from './components/skills/edit-skills.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +45,8 @@ import { interceptorProvider } from './service/interceptor.service';
     EditExperienciaComponent,
     NewEducacionComponent,
     EditEducacionComponent,
+    NewSkillsComponent,
+    EditSkillsComponent,
   ],
   imports: [
     BrowserModule,

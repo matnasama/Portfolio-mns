@@ -1,11 +1,20 @@
 .row {
     background-color: beige;
-    padding-right: 25px;
+    padding-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    padding: 20px;
+    display: grid;
 }
 
 h1 {
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+th, td {
+    padding: 10px;
 }
